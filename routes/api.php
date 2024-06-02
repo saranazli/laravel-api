@@ -15,4 +15,4 @@ use App\Http\Controllers\api\ProjectController;
 |
 */
 
-Route::get('/project',[ProjectController::class, 'index']);
+Route::get('/projects',[ProjectController::class, 'index']);
